@@ -16,7 +16,7 @@ function output(message, colorFn = (s) => s) {
 
 output(`Guess the Number!`, chalk.magenta.bold);
 output(`Guess a number between ${MIN} and ${MAX}.`);
-output(`You have ${MAX_ATTEMPTS} attempts!`, chalk.yellow);
+output(`You have ${MAX_ATTEMPTS} attempts!`, chalk.cyan);
 
 
 
@@ -66,7 +66,7 @@ for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
         const guess = validateGuess(response.guess);
 
         if (guess === secret) {
-            output(`You got it!! The number was ${secret}`, chalk.green.bold);
+            output(`YOU WON! The number was ${secret}`, chalk.green.bold);
             won = true;
             break;
         } else if (guess < secret) {
