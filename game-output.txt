@@ -2,7 +2,7 @@ Guess the Number!
 Guess a number between 1 and 10.
 You have 3 attempts!
 Too low!
-Too high!
+Too low!
 Too low!
 GAME OVER
-The secret number was 4
+The secret number was 10

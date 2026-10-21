@@ -18,11 +18,7 @@ output(`Guess the Number!`, chalk.magenta.bold);
 output(`Guess a number between ${MIN} and ${MAX}.`);
 output(`You have ${MAX_ATTEMPTS} attempts!`, chalk.yellow);
 
-const response = await prompts({
-    type: `text`,
-    name: `guess`,
-    message: `Attempt 1/${MAX_ATTEMPTS}: Enter your guess`,
-});
+
 
 function validateGuess(input) {
     // if empty
