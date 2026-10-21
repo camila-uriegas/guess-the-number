@@ -1,4 +1,8 @@
 Guess the Number!
 Guess a number between 1 and 10.
 You have 3 attempts!
-YOU WON! The number was 8
+Too high!
+Too high!
+Too high!
+GAME OVER
+The secret number was 1
